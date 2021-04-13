@@ -14,8 +14,14 @@ The output should be a number.
 
 function genderCount(array, string){
 //CODE BELOW HERE
+for(var i = 0; i <= array.length - 1; i++){
+  if(string === genderCount[i].gender){
+      count++
+  }
+}
 
-
-
+console.log(count)
 //CODE ABOVE HERE
 }
+
+genderCount(customers, 'female')
